@@ -4,9 +4,11 @@ using namespace std;
 int main () {
 
 
+	int var = 0; 
 
-for (int i = 0, i++) {
-	cout << i % 12 << endl;
+	for (int i = 0; i <25; i++) {
+		cin >> var; 
+		cout << i % 12 << endl;
 
 
 }
@@ -16,4 +18,4 @@ for (int i = 0, i++) {
 
 return 0; 
 
-{
+}
