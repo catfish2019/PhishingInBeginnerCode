@@ -17,11 +17,9 @@ int main () {
 
 	if (var == 0)
 		terminate = true; 
-
-	string notes[12] = {"c", "c#", "d", "d#", "e", "f","f#" "g", "g#", "a", "a#","b"};	
-	notes [modulus]
 	
-	cout << notes [modulus] << endl;	
+	else if string notes[12] = {"c", "c#", "d", "d#", "e", "f","f#" "g", "g#", "a", "a#","b"};	
+		cout << notes [modulus] << endl;	
 
 	} while (!terminate ); 
 	cout << "you have now quit" << endl;
