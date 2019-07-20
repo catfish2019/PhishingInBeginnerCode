@@ -7,7 +7,7 @@ int main () {
 	int var = 0;
 	bool terminate = false; 
 	int modulus = 0; 	
-	string notes[12] = {"c", "c#", "d", "d#", "e", "f","f#" "g", "g#", "a", "a#","b"};
+	string notes[12] = {"a", "a#", "b", "c", "c#", "d","d#", "e", "f", "f#","g","g#"};
 	
 	do {
 
