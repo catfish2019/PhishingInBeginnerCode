@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+
+	int var = 0;
+	bool terminate = false; 
+	int modulus = 0; 	
+
+	do {
+
+	cout << "input a semitone. Press 0 to escape" << endl; 	
+
+
+
+
+	for (int i = 0; i < 89; i++) {
+		cout << i % 12 << endl;
+
+	
+
+
+	if (modulus == 0 )
+		cout << "your note is c" << endl;
+	
+	else if (modulus == 1 )
+		cout << "hour note is c#" << endl;
+
+	else (modulus == 2 )
+		cout << "your note is d" << endl;
+		
+
+	} while (!terminate ); 
+	cout << "you have now quit" << endl;
+
+
+
+
+
+return 0; 
+
+}
