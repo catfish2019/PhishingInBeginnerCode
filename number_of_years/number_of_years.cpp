@@ -4,36 +4,29 @@ using namespace std;
 int main () {
 
 
-int minutes = 0;
-float years = 0;
-float days = 0;
+int min = 0;
 bool terminate = false;
+ 
 
-years = minutes/ (365*24*60);
-days = (minutes % (24*60));
-
+	do {
 
 	cout << "enter the number of minutes and this cool program will convert them to years and days"<< endl;
 	cout << "press 0 to quit" << endl;
-	cin >> minutes;
-	cout << minutes << endl;
-
-	do {
+	cin >> min;
 	
-	if (minutes == 0 )
+	//note that to convert min to years, divide by 60 min/hr, 24 hrs/day, 365 days/year
+	//note that to get days, take remainder of years (which will be in minutes??) and divide by 60 min/hr, 24 hrs/day
+
+	float years = ( min / (60*24*365));
+	float days = ((min % (60*24*365))/(24*60));  
+ 
+	cout << min << " minutes is " << years << " years and " << days << " days" << endl;
+
+	if ( min == 0 )
 		terminate = true;
-	
-	else if (days == 0 )
-		cout << years << "years" << endl;
-
-	else {
-		cout << (years-(days/365)) << "years" << days << "days" << endl;
-		}
 
 	} while ( !terminate );
 		cout << "you have now quit" << endl;
-
-
 
 
 
